@@ -5,9 +5,26 @@
 </head>
 <body>
   <main>
+  <h3>When we think "Europe," one of the most iconic places that come to mind might be the Eiffel Tower.</h3>
   <img src ="photos/eiffel.jpg" alt="eiffel_tower"/>
-
-  <form></form>
+  <form name="travel_wish" action="success.html" method="post">
+    <fieldset>
+      <div>
+        <label>Name:</label>
+        <input type="text" name="fullname">
+      </div>
+      <div>
+        <label>For what purpose would you like to travel?</label>
+        <select name="purpose_travel">
+          <option value="purpose">Honeymoon</option>
+          <option value="purpose">Personal Vacation</option>
+          <option value="purpose">Family Vacation</option>
+          <option value="purpose">Travel with Friends</option>
+          <option value="purpose">Business</option>
+          <option value="purpose">Other</option>
+        </select>
+      </div>
+  </form>
   <ul>
     <li></li>
     <li></li>
