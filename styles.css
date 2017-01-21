@@ -24,7 +24,19 @@ img {
   text-align: center;
 }
 
-#vacation {
-  background-image: url(photos/g_canyon.jpg);
+fieldset {
+  background-image: url("photos/g_canyon.jpg");
   background-size: 100% 100%;
+
+}
+
+form > p {
+  font-size: 20px;
+  text-shadow: 2px 2px 2px #fcd202;
+  font-weight: bold;
+}
+
+form {
+  font-family: "Helvetica", sans-serif;
+  text-shadow: 2px 2px #fcd202;
 }
