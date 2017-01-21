@@ -1,11 +1,22 @@
-body {background: #e0edfc;}
+/* set background color */
+body {
+  background: #e0edfc;
+}
 
-a:link {color: #fc02a4;}
+/* change link interaction */
+a:link {
+  color: #fc02a4;
+}
 
-a:visited {color: green;}
+a:visited {
+  color: green;
+}
 
-a:hover {color: blue;}
+a:hover {
+  color: blue;
+}
 
+/* give main content a border & font Helvetica*/
 main {
   border: solid;
   border-style: double;
@@ -13,14 +24,17 @@ main {
   border-width: 10px;
   margin: 20px;
   padding: 15px;
+  font-family: "Helvetica", sans-serif;
 }
 
+/* set all images to the same size and center on page */
 img {
   display: block;
   margin: auto;
-  width: 50%;
+  width: 60%;
 }
 
+/* use id to give main header distinction and center text */
 #travel {
   display: inline-block;
   border: solid;
@@ -36,13 +50,16 @@ img {
 
 #travel > h1 {font-size: 30px;}
 
+/* use class to center text */
 .places {text-align: center;}
 
+/* insert background image to form */
 fieldset {
   background-image: url("photos/g_canyon.jpg");
   background-size: 100% 100%;
 }
 
+/* give form text a shadow to help increase legibility */
 form > p {
   font-size: 20px;
   text-shadow: 2px 2px 2px #fcd202;
@@ -50,18 +67,29 @@ form > p {
 }
 
 form {
-  font-family: "Helvetica", sans-serif;
   text-shadow: 2px 2px #fcd202;
 }
 
+/* center text of footer */
 footer {
   text-align: center;
   font-family: "Helvetica", sans-serif;
   font-size: 11px;
 }
 
-@media screen and (max-width: 500px) {
-  body {width: auto;}
-  img {width: 100%;}
+/* improve responsiveness of page on smaller screens */
+@media screen and (max-width: 700px) {
+  body {
+    background: #f9d6f9;
+    width: auto;
+  }
+  img {
+    width: 80%;
+  }
+  fieldset {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto;
+  }
 }
 
