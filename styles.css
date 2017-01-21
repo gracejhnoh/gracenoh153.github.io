@@ -1,29 +1,18 @@
-body {
-  background: #e0edfc;
-}
+body {background: #e0edfc;}
 
-a:link {
-  color: #fc02a4;
-}
+a:link {color: #fc02a4;}
 
-a:visited {
-  color: green;
-}
+a:visited {color: green;}
 
-a:hover {
-  color: blue;
-}
+a:hover {color: blue;}
 
 main {
   border: solid;
+  border-style: double;
   border-color: #5ea1ed;
-  border-radius: 10px;
+  border-width: 10px;
   margin: 20px;
   padding: 15px;
-}
-
-footer {
-  text-align: center;
 }
 
 img {
@@ -32,13 +21,21 @@ img {
   width: 50%;
 }
 
-#visit {
+#travel {
+  display: inline-block;
   border: solid;
   border-style: dotted;
-  border-color: #5ea1ed;
+  border-width: 5px;
+  border-color: #e25fe0;
   border-radius: 10px;
   margin: 10px;
   padding: 10px;
+  text-align: center;
+  font-family: "Helvetica", sans-serif;
+}
+
+#travel > h1 {
+  font-size: 30px;
 }
 
 .places {
@@ -61,3 +58,15 @@ form {
   font-family: "Helvetica", sans-serif;
   text-shadow: 2px 2px #fcd202;
 }
+
+footer {
+  text-align: center;
+  font-family: "Helvetica", sans-serif;
+  font-size: 11px;
+}
+
+@media screen and (max-width: 500px) {
+  body {width: auto;}
+  img {width: 100%;}
+}
+
