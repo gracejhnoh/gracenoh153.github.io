@@ -20,6 +20,10 @@ img {
   width: 50%;
 }
 
+.places {
+  text-align: center;
+}
+
 #vacation {
   background-image: url(photos/g_canyon.jpg);
   background-size: 100% 100%;
