@@ -1,1 +1,16 @@
-body {background: blue;}
+body {
+  background: #e0edfc;
+}
+
+main {
+  border: solid;
+  border-color: #5ea1ed;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 15px;
+}
+
+footer {
+  position: fixed;
+  left:;
+}
