@@ -13,3 +13,14 @@ main {
 footer {
   text-align: center;
 }
+
+img {
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+
+#vacation {
+  background-image: url(photos/g_canyon.jpg);
+  background-size: 100% 100%;
+}
