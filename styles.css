@@ -48,10 +48,15 @@ img {
   font-family: "Helvetica", sans-serif;
 }
 
-#travel > h1 {font-size: 30px;}
+#travel > h1 {
+  font-size: 30px;
+}
 
 /* use class to center text */
-.places {text-align: center;}
+.places {
+  text-align: center;
+  font-family: "Helvetica", sans-serif;
+}
 
 /* insert background image to form */
 fieldset {
